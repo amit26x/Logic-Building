@@ -29,3 +29,32 @@
 // console.log(div)
 
 
+// function areaOgRectangle(height,width){
+//     return height*width;
+// }
+// let area = areaOgRectangle(5,10);
+// console.log(area); 
+
+
+
+// function areaOfSquare(area , area){
+//     return  area*area;
+
+// }
+// let area = areaOfSquare(5,5);
+// console.log(area)
+
+
+// function areaOfCircle(r,r){
+//     return r*r*(22/7);
+// }
+// let area = areaOfCircle(2,3)
+// console.log(area)
+
+
+
+function areaOfTriangle(base, height){
+    return A =  1/2*(base*height)
+}
+let area = areaOfTriangle(2, 8)
+console.log(area)
