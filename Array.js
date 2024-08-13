@@ -129,11 +129,35 @@
 
 
 //Fibonacci 
-function fibonacci (n){
-    let fib = [0,1];
-    for(let i=2; i<n; i++){
-        fib[i] = fib[i-1] + fib[i-2];
-    }
-    return fib;
-}
-console.log(fibonacci(50));
+// function fibonacci (n){
+//     let fib = [0,1];
+//     for(let i=2; i<n; i++){
+//         fib[i] = fib[i-1] + fib[i-2];
+//     }
+//     return fib;
+// }
+// console.log(fibonacci(50));
+
+
+//Array of squares of each elemenet
+// let arr = [1,2,3,4,5,6,7,8,9]
+// let squares = arr.map(num=>num**2)
+// console.log(squares);
+
+
+//Find greater then the specific value
+// let arr = [1,2,3,4,5,6,7,8,9]
+// let find = arr.filter(num=>num>10)
+// console.log(find);
+
+//Check all element is positive
+// let arr = [1,2,34,3,90,2,4]
+// let positive = arr.every(num=>num>0);
+// console.log(positive);
+
+
+// diffrence Between the largest and smallest
+// let arr = [1,2,3,4,5]
+// let max = Math.max(...arr);
+// let min = Math.min(...arr);
+// console.log(max - min);
