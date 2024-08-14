@@ -161,3 +161,22 @@
 // let max = Math.max(...arr);
 // let min = Math.min(...arr);
 // console.log(max - min);
+
+
+//Rotate An Array by K
+// function rotate(arr, k){
+//     k = k % arr.length;
+//     return [...arr.slice(k), ...arr.slice(0, k)];
+// }
+// let arr = [1,2,3,4,5,6,7]
+// console.log(rotate(arr, 2));
+
+
+//Second Largest Element in Array
+// let arr = [1,2,3,4,5]
+// let max = Math.max(...arr);
+// let filteredArr = arr.filter(num=> num!==max);
+// let secondMax = Math.max(...filteredArr);
+// console.log(secondMax)
+
+
