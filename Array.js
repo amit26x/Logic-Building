@@ -180,3 +180,46 @@
 // console.log(secondMax)
 
 
+// Intersection of two Array
+// function intersection (arr1, arr2){
+//     return arr1.filter(value => arr2.includes(value));
+// }
+// let arr1 = [1,2,3,4,5];
+// let arr2 = [2,4,3,6,7]
+
+// console.log(intersection(arr1, arr2))
+
+
+//Union of Two Array
+// function union(arr1, arr2){
+//     return [...new Set([...arr1, ...arr2])]
+// }
+// let arr1 = [1,2,3,4,5]
+// let arr2 = [3,4,5,6,7]
+// console.log(union(arr1,arr2));
+
+
+//symmetric Diffrence of Two Array
+// function symmetricdiffrence(arr1, arr2){
+//     return [...arr1.filter(x => !arr2.includes(x)), ...arr2.filter(x => !arr1.includes(x))];
+
+// }
+// let arr1 = [1,2,3,4,5]
+// let arr2 = [2,3,4,5,6,]
+// console.log(symmetricdiffrence(arr1, arr2));
+
+
+//Sorted Array
+function binarySearch(arr, target){
+    let left = 0, right = arr.length - 1;
+    while(left <= right) {
+        let mid = Math.floor((left + right) / 2);
+        if (arr[mid] === target) return mid;
+        else if (arr[mid] < target) left = mid + 1;
+        else right = mid - 1;
+    }
+    return -1;
+
+}
+let arr = [1,2,3,4,5];
+console.log(binarySearch(arr, 3));
